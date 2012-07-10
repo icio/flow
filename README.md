@@ -13,4 +13,4 @@ If you execute the program with `--monitor` it will write to the file every time
 
     bin/flow -f png example example.png -H \*03
 
-![An example job flow](example.png)
+![An example job flow](https://github.com/icio/flow/raw/master/example.png)
