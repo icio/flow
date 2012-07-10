@@ -2,6 +2,8 @@
 
 `/example` is a mimic of the files that are created by data-processing jobs. Job-output directories are appended with `_` and files declare their input by including a list of the files that they depend on in their first few lines.
 
+Here is [a screencast of it in action](http://api.cld.me/Hsdg/download/Screen%20Recording%203.mov).
+
 Test the example with
 
     bin/flow example example.dot
