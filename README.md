@@ -10,3 +10,7 @@ Test the example with
 Highlight options have to come at the end because you can specify an indeterminate amount of them and it is greedy (fixme?).
 
 If you execute the program with `--monitor` it will write to the file every time that the base tree is updated.
+
+    bin/flow -f png example example.png -H \*03
+
+![An example job flow](example.png)
