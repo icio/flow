@@ -3,6 +3,9 @@ import pydot
 from fnmatch import fnmatch
 
 
+IDENTIFIER="_"
+
+
 class Tree(object):
 
     def __init__(self, path, focus):
@@ -19,13 +22,13 @@ class Tree(object):
         # Discover the jobs and their output
         job = None
         for root, dirs, files in os.walk(self.path):
-            isjob = root.endswith("~")
+            isjob = root.endswith(IDENTIFIER)
             if isjob:
                 # Job
                 job = Job(self, root)
                 self.jobs[job.relpath] = job
 
-            if isjob or root.find("~") != -1:
+            if isjob or root.find(IDENTIFIER) != -1:
                 for f in files:
                     # Output
                     output = Output(self, job, os.path.join(root, f))

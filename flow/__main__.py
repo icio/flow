@@ -8,9 +8,9 @@ from watchdog.observers import Observer
 
 parser = ArgumentParser(prog="flow", description="Snapshot flow visualiser")
 parser.add_argument("-m", "--monitor", action="store_true", help="Monitor the file structure")
-parser.add_argument("base", nargs="?", help="Base tree structure", default="fs")
 parser.add_argument("-f", "--focus", nargs="*", default=[], help="Patterns of jobs and output to highlight")
 parser.add_argument('--format', default='dot', help="File type")
+parser.add_argument("base", help="Base tree structure")
 parser.add_argument("output", help="Output file")
 
 args = parser.parse_args()
