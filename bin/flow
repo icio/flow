@@ -1,0 +1,11 @@
+#!/bin/bash -e
+
+BASEDIR=`dirname $0`/..
+
+$BASEDIR/bin/setup
+
+source $BASEDIR/venv/bin/activate
+cd $BASEDIR
+export PYTHONPATH=.
+
+$BASEDIR/venv/bin/python -m flow $@

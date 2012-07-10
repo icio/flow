@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Ensure that the user has pip and virtualenv installed
+if [ ! $(which pip) ]; then
+  echo "Missing pip requirement: sudo easy_install pip."
+  exit 1
+fi
+if [ ! $(which virtualenv) ]; then
+  echo "Missing virtualenv requirement: sudo pip install virtualenv."
+  exit 1
+fi
+
+BASEDIR=$(dirname $0)/..
+
+# Create the virtualenv directory
+if [ ! -d $BASEDIR/venv ]; then
+  virtualenv -q $BASEDIR/venv -p /usr/bin/python2.7
+  echo "Virtualenv directory created."
+fi
+
+# Install the requirements
+if [ ! -f "$BASEDIR/venv/updated" -o $BASEDIR/requirements.pip -nt $BASEDIR/venv/updated ]; then
+  pip install -r $BASEDIR/bin/requirements.pip -E $BASEDIR/venv
+  touch $BASEDIR/venv/updated
+  echo "Requirements installed."
+fi
