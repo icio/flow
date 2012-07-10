@@ -10,10 +10,12 @@ if [ ! $(which virtualenv) ]; then
   exit 1
 fi
 
+BASEDIR=$(dirname $0)/..
+
 # Install the requirements
-if [ ! -f "$BASEDIR/venv/updated" -o $BASEDIR/requirements.pip -nt $BASEDIR/venv/updated ]; then
-  virtualenv $BASEDIR/venv -p python2.7
-  $BASEDIR/venv/bin/pip install -r $BASEDIR/requirements.pip
-  touch $BASEDIR/venv/updated
+if [ ! -f "$BASEDIR/bin/venv/updated" -o $BASEDIR/bin/requirements.pip -nt $BASEDIR/bin/venv/updated ]; then
+  virtualenv $BASEDIR/bin/venv -p python2.7
+  $BASEDIR/bin/venv/bin/pip install -r $BASEDIR/bin/requirements.pip
+  touch $BASEDIR/bin/venv/updated
   echo "Requirements installed."
 fi

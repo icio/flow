@@ -4,8 +4,8 @@ BASEDIR=`dirname $0`/..
 
 $BASEDIR/bin/setup
 
-source $BASEDIR/venv/bin/activate
+source $BASEDIR/bin/venv/bin/activate
 cd $BASEDIR
 export PYTHONPATH=.
 
-$BASEDIR/venv/bin/python -m flow $@
+$BASEDIR/bin/venv/bin/python2.7 -m flow $@
