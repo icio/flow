@@ -8,6 +8,8 @@ IDENTIFIER="_"
 
 class Tree(object):
 
+    highlight_color = "turquoise3"
+
     def __init__(self, path, focus):
 
         self.path = path
@@ -76,14 +78,14 @@ class Tree(object):
 
             # Construct the HTML for the output rows
             if job.output:
-                output_html = "<TR>" + "</TR><TR>".join(['<TD PORT="%s"%s>%s</TD>' % (o.node_port, ' COLOR="red"' * o.focus, o.relpath) for o in job.output]) + "</TR>"
+                output_html = "<TR>" + "</TR><TR>".join(['<TD PORT="%s"%s>%s</TD>' % (o.node_port, (' COLOR="%s"' % self.highlight_color) * o.focus, o.relpath) for o in job.output]) + "</TR>"
             else:
                 output_html = ""
 
             # Construct the job node
             job_node = pydot.Node(job.node_name, label=(u'<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD><FONT FACE="monospace">%s</FONT></TD></TR>%s</TABLE>>' % (job.name, output_html)).encode('UTF-8'))
             if job.focus:
-                job_node.set('color', 'red')
+                job_node.set('color', self.highlight_color)
             graph.add_node(job_node)
 
             # Add in the relationships
@@ -91,7 +93,7 @@ class Tree(object):
                 for dep in output.dependencies:
                     edge = pydot.Edge(dep.node_name, output.node_name)
                     if dep.focus or output.focus or dep.job.focus or output.job.focus:
-                        edge.set('color', 'red')
+                        edge.set('color', self.highlight_color)
                     graph.add_edge(edge)
 
         graph.write(path, format=format)
