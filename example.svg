@@ -17,7 +17,7 @@
 <text text-anchor="start" x="23" y="-47" font-family="Times,serif" font-size="14.00">01</text>
 <polygon fill="none" stroke="black" points="8,-23 8,-43 52,-43 52,-23 8,-23"/>
 <text text-anchor="start" x="23" y="-27" font-family="Times,serif" font-size="14.00">02</text>
-<polygon fill="none" stroke="red" points="8,-3 8,-23 52,-23 52,-3 8,-3"/>
+<polygon fill="none" stroke="#00c5cd" points="8,-3 8,-23 52,-23 52,-3 8,-3"/>
 <text text-anchor="start" x="23" y="-7" font-family="Times,serif" font-size="14.00">03</text>
 </g>
 <!-- b_merge -->
@@ -28,7 +28,7 @@
 <text text-anchor="start" x="381.5" y="-57" font-family="Times,serif" font-size="14.00">01</text>
 <polygon fill="none" stroke="black" points="357,-33 357,-53 420,-53 420,-33 357,-33"/>
 <text text-anchor="start" x="381.5" y="-37" font-family="Times,serif" font-size="14.00">02</text>
-<polygon fill="none" stroke="red" points="357,-13 357,-33 420,-33 420,-13 357,-13"/>
+<polygon fill="none" stroke="#00c5cd" points="357,-13 357,-33 420,-33 420,-13 357,-13"/>
 <text text-anchor="start" x="381.5" y="-17" font-family="Times,serif" font-size="14.00">03</text>
 </g>
 <!-- b_raw&#45;&gt;b_merge -->
@@ -48,18 +48,18 @@
 </g>
 <!-- b_raw&#45;&gt;b_merge -->
 <g id="edge32" class="edge"><title>b_raw:o01&#45;&gt;b_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-53C184.889,-53 218.966,-24.5041 345.888,-23.057"/>
-<polygon fill="red" stroke="red" points="346.02,-26.5564 356,-23 345.98,-19.5566 346.02,-26.5564"/>
+<path fill="none" stroke="#00c5cd" d="M53,-53C184.889,-53 218.966,-24.5041 345.888,-23.057"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="346.02,-26.5564 356,-23 345.98,-19.5566 346.02,-26.5564"/>
 </g>
 <!-- b_raw&#45;&gt;b_merge -->
 <g id="edge34" class="edge"><title>b_raw:o02&#45;&gt;b_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-33C184.319,-33 219.493,-23.5014 345.929,-23.019"/>
-<polygon fill="red" stroke="red" points="346.007,-26.519 356,-23 345.993,-19.519 346.007,-26.519"/>
+<path fill="none" stroke="#00c5cd" d="M53,-33C184.319,-33 219.493,-23.5014 345.929,-23.019"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="346.007,-26.519 356,-23 345.993,-19.519 346.007,-26.519"/>
 </g>
 <!-- b_raw&#45;&gt;b_merge -->
 <g id="edge36" class="edge"><title>b_raw:o03&#45;&gt;b_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-13C184.319,-13 219.493,-22.4986 345.929,-22.981"/>
-<polygon fill="red" stroke="red" points="345.993,-26.481 356,-23 346.007,-19.481 345.993,-26.481"/>
+<path fill="none" stroke="#00c5cd" d="M53,-13C184.319,-13 219.493,-22.4986 345.929,-22.981"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="345.993,-26.481 356,-23 346.007,-19.481 345.993,-26.481"/>
 </g>
 <!-- a_raw -->
 <g id="node2" class="node"><title>a_raw</title>
@@ -69,7 +69,7 @@
 <text text-anchor="start" x="23.5" y="-218" font-family="Times,serif" font-size="14.00">01</text>
 <polygon fill="none" stroke="black" points="9,-194 9,-214 52,-214 52,-194 9,-194"/>
 <text text-anchor="start" x="23.5" y="-198" font-family="Times,serif" font-size="14.00">02</text>
-<polygon fill="none" stroke="red" points="9,-174 9,-194 52,-194 52,-174 9,-174"/>
+<polygon fill="none" stroke="#00c5cd" points="9,-174 9,-194 52,-194 52,-174 9,-174"/>
 <text text-anchor="start" x="23.5" y="-178" font-family="Times,serif" font-size="14.00">03</text>
 </g>
 <!-- a_merge -->
@@ -80,7 +80,7 @@
 <text text-anchor="start" x="381" y="-218" font-family="Times,serif" font-size="14.00">01</text>
 <polygon fill="none" stroke="black" points="357,-194 357,-214 419,-214 419,-194 357,-194"/>
 <text text-anchor="start" x="381" y="-198" font-family="Times,serif" font-size="14.00">02</text>
-<polygon fill="none" stroke="red" points="357,-174 357,-194 419,-194 419,-174 357,-174"/>
+<polygon fill="none" stroke="#00c5cd" points="357,-174 357,-194 419,-194 419,-174 357,-174"/>
 <text text-anchor="start" x="381" y="-178" font-family="Times,serif" font-size="14.00">03</text>
 </g>
 <!-- a_raw&#45;&gt;a_merge -->
@@ -100,18 +100,18 @@
 </g>
 <!-- a_raw&#45;&gt;a_merge -->
 <g id="edge44" class="edge"><title>a_raw:o01&#45;&gt;a_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-224C185.386,-224 218.507,-186.005 345.852,-184.076"/>
-<polygon fill="red" stroke="red" points="346.027,-187.575 356,-184 345.974,-180.575 346.027,-187.575"/>
+<path fill="none" stroke="#00c5cd" d="M53,-224C185.386,-224 218.507,-186.005 345.852,-184.076"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="346.027,-187.575 356,-184 345.974,-180.575 346.027,-187.575"/>
 </g>
 <!-- a_raw&#45;&gt;a_merge -->
 <g id="edge46" class="edge"><title>a_raw:o02&#45;&gt;a_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-204C184.533,-204 219.295,-185.003 345.914,-184.038"/>
-<polygon fill="red" stroke="red" points="346.013,-187.538 356,-184 345.987,-180.538 346.013,-187.538"/>
+<path fill="none" stroke="#00c5cd" d="M53,-204C184.533,-204 219.295,-185.003 345.914,-184.038"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="346.013,-187.538 356,-184 345.987,-180.538 346.013,-187.538"/>
 </g>
 <!-- a_raw&#45;&gt;a_merge -->
 <g id="edge48" class="edge"><title>a_raw:o03&#45;&gt;a_merge:o03</title>
-<path fill="none" stroke="red" d="M53,-184C184.247,-184 219.559,-184 345.934,-184"/>
-<polygon fill="red" stroke="red" points="346,-187.5 356,-184 346,-180.5 346,-187.5"/>
+<path fill="none" stroke="#00c5cd" d="M53,-184C184.247,-184 219.559,-184 345.934,-184"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="346,-187.5 356,-184 346,-180.5 346,-187.5"/>
 </g>
 <!-- combine -->
 <g id="node3" class="node"><title>combine</title>
@@ -121,7 +121,7 @@
 <text text-anchor="start" x="750.5" y="-157" font-family="Times,serif" font-size="14.00">01</text>
 <polygon fill="none" stroke="black" points="725,-133 725,-153 790,-153 790,-133 725,-133"/>
 <text text-anchor="start" x="750.5" y="-137" font-family="Times,serif" font-size="14.00">02</text>
-<polygon fill="none" stroke="red" points="725,-113 725,-133 790,-133 790,-113 725,-113"/>
+<polygon fill="none" stroke="#00c5cd" points="725,-113 725,-133 790,-133 790,-113 725,-113"/>
 <text text-anchor="start" x="750.5" y="-117" font-family="Times,serif" font-size="14.00">03</text>
 </g>
 <!-- a_merge&#45;&gt;combine -->
@@ -141,18 +141,18 @@
 </g>
 <!-- a_merge&#45;&gt;combine -->
 <g id="edge14" class="edge"><title>a_merge:o01&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M420,-224C558.897,-224 580.614,-127.871 713.789,-123.178"/>
-<polygon fill="red" stroke="red" points="714.062,-126.674 724,-123 713.941,-119.675 714.062,-126.674"/>
+<path fill="none" stroke="#00c5cd" d="M420,-224C558.897,-224 580.614,-127.871 713.789,-123.178"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="714.062,-126.674 724,-123 713.941,-119.675 714.062,-126.674"/>
 </g>
 <!-- a_merge&#45;&gt;combine -->
 <g id="edge16" class="edge"><title>a_merge:o02&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M420,-204C556.411,-204 582.917,-126.907 713.962,-123.142"/>
-<polygon fill="red" stroke="red" points="714.051,-126.642 724,-123 713.951,-119.642 714.051,-126.642"/>
+<path fill="none" stroke="#00c5cd" d="M420,-204C556.411,-204 582.917,-126.907 713.962,-123.142"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="714.051,-126.642 724,-123 713.951,-119.642 714.051,-126.642"/>
 </g>
 <!-- a_merge&#45;&gt;combine -->
 <g id="edge18" class="edge"><title>a_merge:o03&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M420,-184C554.305,-184 584.683,-126.058 713.711,-123.116"/>
-<polygon fill="red" stroke="red" points="714.04,-126.613 724,-123 713.961,-119.613 714.04,-126.613"/>
+<path fill="none" stroke="#00c5cd" d="M420,-184C554.305,-184 584.683,-126.058 713.711,-123.116"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="714.04,-126.613 724,-123 713.961,-119.613 714.04,-126.613"/>
 </g>
 <!-- b_merge&#45;&gt;combine -->
 <g id="edge4" class="edge"><title>b_merge:o01&#45;&gt;combine:o01</title>
@@ -161,13 +161,13 @@
 </g>
 <!-- b_merge&#45;&gt;combine -->
 <g id="edge22" class="edge"><title>b_merge:o02&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M421,-43C556.881,-43 583.457,-119.141 714.001,-122.859"/>
-<polygon fill="red" stroke="red" points="713.952,-126.359 724,-123 714.05,-119.36 713.952,-126.359"/>
+<path fill="none" stroke="#00c5cd" d="M421,-43C556.881,-43 583.457,-119.141 714.001,-122.859"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="713.952,-126.359 724,-123 714.05,-119.36 713.952,-126.359"/>
 </g>
 <!-- b_merge&#45;&gt;combine -->
 <g id="edge24" class="edge"><title>b_merge:o03&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M421,-23C559.349,-23 581.17,-118.177 713.829,-122.824"/>
-<polygon fill="red" stroke="red" points="713.941,-126.326 724,-123 714.062,-119.328 713.941,-126.326"/>
+<path fill="none" stroke="#00c5cd" d="M421,-23C559.349,-23 581.17,-118.177 713.829,-122.824"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="713.941,-126.326 724,-123 714.062,-119.328 713.941,-126.326"/>
 </g>
 <!-- b_merge&#45;&gt;combine -->
 <g id="edge10" class="edge"><title>b_merge:o01&#45;&gt;combine:o02</title>
@@ -181,8 +181,8 @@
 </g>
 <!-- b_merge&#45;&gt;combine -->
 <g id="edge20" class="edge"><title>b_merge:o01&#45;&gt;combine:o03</title>
-<path fill="none" stroke="red" d="M421,-63C554.796,-63 585.204,-119.992 713.75,-122.886"/>
-<polygon fill="red" stroke="red" points="713.962,-126.388 724,-123 714.04,-119.389 713.962,-126.388"/>
+<path fill="none" stroke="#00c5cd" d="M421,-63C554.796,-63 585.204,-119.992 713.75,-122.886"/>
+<polygon fill="#00c5cd" stroke="#00c5cd" points="713.962,-126.388 724,-123 714.04,-119.389 713.962,-126.388"/>
 </g>
 </g>
 </svg>
