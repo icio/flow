@@ -10,6 +10,7 @@ parser = ArgumentParser(prog="flow", description="Snapshot flow visualiser")
 parser.add_argument("-m", "--monitor", action="store_true", help="Monitor the file structure")
 parser.add_argument("-H", "--highlight", nargs="+", default=[], help="Patterns of jobs and output to highlight")
 parser.add_argument("-f", "--format", default="dot", help="File type")
+parser.add_argument("-i", "--ignore", action="store_true")
 parser.add_argument("base", help="Base tree structure")
 parser.add_argument("output", help="Output file")
 
@@ -45,5 +46,5 @@ def write_interactive(tree, output, format):
     observer.join()
 
 
-tree = Tree(args.base, args.highlight)
+tree = Tree(args.base, args.highlight, args.ignore)
 (write_interactive if args.monitor else write)(tree, args.output, args.format)

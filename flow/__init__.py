@@ -10,10 +10,11 @@ class Tree(object):
 
     highlight_color = "turquoise3"
 
-    def __init__(self, path, focus):
+    def __init__(self, path, focus, ignore):
 
         self.path = path
         self.focus = focus
+        self.ignore = ignore
 
 
     def parse(self):
@@ -94,6 +95,8 @@ class Tree(object):
                     edge = pydot.Edge(dep.node_name, output.node_name)
                     if dep.focus or output.focus or dep.job.focus or output.job.focus:
                         edge.set('color', self.highlight_color)
+                    elif self.ignore:
+                        continue
                     graph.add_edge(edge)
 
         graph.write(path, format=format)
